@@ -14,5 +14,5 @@ tags:
 ## Vidéo du site réalisé
 
 <video width="630" height="400" controls>
-  <source src="/public/assets/projet/projetWordPress/Se%20connecter%20‹%20CyberProtective%20—%20WordPress%20—%20Mozilla%20Firefox%202024-03-05%2011-36-59.mp4" type="video/mp4">
+  <source src="/assets/projet/projetWordPress/Se%20connecter%20‹%20CyberProtective%20—%20WordPress%20—%20Mozilla%20Firefox%202024-03-05%2011-36-59.mp4" type="video/mp4">
 </video>

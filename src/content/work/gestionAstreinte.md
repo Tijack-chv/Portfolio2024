@@ -27,22 +27,22 @@ Chaque amélioration de l'application que j'ai pu réaliser vont être présent�
 La première mission qui m’a été confiée est sur l’application Gestion Astreinte. Afin de permettre au Manager d’avoir une vision très rapide sur les nouvelles Interventions et/ou Récupérations mises à jour, je dois intégrer dans la page principale, l’accès à une sidebar, disponible uniquement par le manager, qui permet de voir toutes les interventions
 et récupérations de son équipe. Le nombre d’éléments dans cette sidebar doit être également renseigné sur le bouton d’ouverture de cette sidebar. Ensuite, chaque occurrence doit pouvoir avoir une checkbox afin de pouvoir passer les éléments quand celui -ci a bien été vu par le Manager.
 Voici un aperçu de l'ouverture de la sidebar une fois le bouton cliqué par le Manager :
-![](/public/assets/captureMissionStage/compteRendu2/sideBarOuvertNewV2.PNG "Sidebar")
+![](/assets/captureMissionStage/compteRendu2/sideBarOuvertNewV2.PNG "Sidebar")
 
 
 ### Mission 2 
 
 Cette deuxième mission avait pour but de corriger la visibilité de certaines données confidentielles dont l'accès était possible pour tous. Seulement les membres RH ont le droit de voir cette donnée.
 Et voici l'affichage final de ce qui était attendu dans un premier temps pour tous les utilisateurs, et le second pour les membres RH.
-![](/public/assets/captureMissionStage/compteRendu3/visibiliteUserDonneeConfidentiel.PNG "Affichage  utilisateur")
+![](/assets/captureMissionStage/compteRendu3/visibiliteUserDonneeConfidentiel.PNG "Affichage  utilisateur")
 
-![](/public/assets/captureMissionStage/compteRendu3/visibiliteAdminDonneeConfidentiel.PNG "Affichage membre RH")
+![](/assets/captureMissionStage/compteRendu3/visibiliteAdminDonneeConfidentiel.PNG "Affichage membre RH")
 
 ### Mission 3
 
 Il m'a été demandé ensuite de régler l'erreur sur la prise de récupération. En effet, nous pouvions choisir de prendre une récupération sur un week-end. Il m'a fallu donc enlever la possibilité de choisir un week-end, en passant par l'ajout d'un composant calendrier de <a href="https://primeng.org/">PrimeNg</a>. Il a fallu également reprendre l'impossibilité de prendre une récupération sur une date déjà passé. 
-![](/public/assets/captureMissionStage/compteRendu3/popup%20preCalendar.PNG "Affichage Zone de saisie de la date")
-![](/public/assets/captureMissionStage/compteRendu3/popup%20Calendar.PNG "Affichage du Calendrier")
+![](/assets/captureMissionStage/compteRendu3/popup%20preCalendar.PNG "Affichage Zone de saisie de la date")
+![](/assets/captureMissionStage/compteRendu3/popup%20Calendar.PNG "Affichage du Calendrier")
 
 ### Mission 4 
 
@@ -52,8 +52,8 @@ En effet, la demande était de pouvoir voir l'ensemble des informations de l'int
 Avec le peu de place que donne une sidebar, l'idée était de placer un bouton d'inspection sur chaque occurence pour qu'une fois le bouton cliquer, une pop-up apparaît avec l'ensemble des données demandés.
 
 Et voici le rendu final de ces améliorations :
-![](/public/assets/captureMissionStage/compteRendu3/sidebarComplety.PNG "Affichage Sidebar")
-![](/public/assets/captureMissionStage/compteRendu3/dialogueSidebar.PNG "Affichage Pop-up Interventions")
+![](/assets/captureMissionStage/compteRendu3/sidebarComplety.PNG "Affichage Sidebar")
+![](/assets/captureMissionStage/compteRendu3/dialogueSidebar.PNG "Affichage Pop-up Interventions")
 
 ### Mission 5 
 

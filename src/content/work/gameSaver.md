@@ -23,29 +23,29 @@ Et enfin, cela me permet de me rendre plus à l'aise avec les technologies utili
 Voici ci-dessous, le visuel de l'application en cours.
 
 ### Connexion du Joueur 
-![](/public/assets/projet/projetGameSaver/image.png "")
+![](/assets/projet/projetGameSaver/image.png "")
 
 ### Inscription du Joueur
 
-![](/public/assets/projet/projetGameSaver/image2.png "")
+![](/assets/projet/projetGameSaver/image2.png "")
 
 ### Accès paramètres du compte avec possibilité de modifier les informations
 
-![](/public/assets/projet/projetGameSaver/image3.png "")
-![](/public/assets/projet/projetGameSaver/image4.png "")
-![](/public/assets/projet/projetGameSaver/image5.png "")
+![](/assets/projet/projetGameSaver/image3.png "")
+![](/assets/projet/projetGameSaver/image4.png "")
+![](/assets/projet/projetGameSaver/image5.png "")
 
 ### Accès à la liste des jeux 
 
-![](/public/assets/projet/projetGameSaver/image6.png "")
-![](/public/assets/projet/projetGameSaver/image7.png "")
+![](/assets/projet/projetGameSaver/image6.png "")
+![](/assets/projet/projetGameSaver/image7.png "")
 
 ### Interractions supplémentaires avec les droits nécessaires (admin)
 
-![](/public/assets/projet/projetGameSaver/image8.png "")
-![](/public/assets/projet/projetGameSaver/image9.png "")
-![](/public/assets/projet/projetGameSaver/image10.png "")
-![](/public/assets/projet/projetGameSaver/image11.png "")
+![](/assets/projet/projetGameSaver/image8.png "")
+![](/assets/projet/projetGameSaver/image9.png "")
+![](/assets/projet/projetGameSaver/image10.png "")
+![](/assets/projet/projetGameSaver/image11.png "")
 
 ## Technologies utilisés 
 

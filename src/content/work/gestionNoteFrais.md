@@ -15,5 +15,5 @@ tags:
 ## Vidéo de l'application réalisé
 
 <video width="630" height="400" controls>
-  <source src="/public/assets/projet/projetNoteFrais/gestionNoteDeFraisPartieComptable.mp4" type="video/mp4">
+  <source src="/assets/projet/projetNoteFrais/gestionNoteDeFraisPartieComptable.mp4" type="video/mp4">
 </video>

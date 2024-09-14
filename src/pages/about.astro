@@ -1,0 +1,177 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Pierre Chauveau" description="About Pierre Chauveau">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Découvrez mon parcours et mes compétences."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/public/assets/jpg.jpg"
+					alt="Pierre Chauveau au travail"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Profil</h2>
+				<div class="content">
+					<p>
+						Nom : Pierre Chauveau <br>
+						Âge : 23 ans <br>
+						Formation : Étudiant en 2e année de BTS SIO(Services Informatiques aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers) <br>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">À Propos de Moi</h2>
+				<div class="content">
+					<p>
+						Passionné par l'informatique depuis mon plus jeune âge, j'ai choisi d'intégré ce domaine. C'est pendant mes études en licence que j'ai pu découvrir le développement.
+						Et c'est afin d'approfondir des connaissances techniques et de travail que j'ai intégrer le BTS SIO avec comme spécialisation SLAM au lycée Chevrollier. 
+						Aujourd'hui en deuxième année, j'ai acquis une solide expérience en programmation, en gestion de base de données et en développement web, qui me permet de concevoir et de 
+						mettre en oeuvre des solutions logicielles adaptées aux besoins des entreprises.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Formation</h2>
+				<div class="content">
+					<p>
+						- 2023 à 2024 | Première année BTS SIO option SLAM au <a href="https://chevrollier.paysdelaloire.e-lyco.fr/">lycée Chevrollier</a> à Angers (49).	    
+					</p><br>
+					<p>
+						- 2023 | <a href="/public/assets/AttestationSecNumAcademie.pdf">Certification SecNumAcademie</a> 
+					</p><br>
+					<p>
+						- 2020/2023 | Niveau deuxième année en Licence Maths Physique-Chimie Informatique Économie (MPCIE) Spécialité Informatique à la <a href="https://www.univ-angers.fr/fr/acces-directs/facultes-et-instituts/faculte-des-sciences.html">fac de sciences</a> à Angers Belle-Beille (49) 
+					</p><br>
+					<p>
+						- 2019/2020 | Première Année de BTS Bâtiment au <a href="https://lyceepmf.fr/">lycée Pierre Mendes France</a> à Rennes (35)
+					</p><br>
+					<p>
+						- 2016/2019 | Baccalauréat Scientifique Option Mathématiques au <a href="https://douanier-rousseau.paysdelaloire.e-lyco.fr/">lycée Douanier Rousseau</a> à Laval (53)
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Compétences</h2>
+				<div class="content">
+					<p>
+						● Langages de programmation :<br>
+						 HTML, CSS, PHP, JavaScript, JAVA, Python, TypeScript, XML, C#, C++<br>
+						
+						● Framework :<br>
+						 Angular, JHypster, Astro, Laravel, .Net
+
+						● Base de données<br>
+						 MySQL, MariaDB, Méthode Merise sous Win’ Design, Diagramme de classes UML<br>
+
+						● Systèmes et Réseaux<br> 
+						 Mise en place de serveurs distants Web et BD sous Windows et Linux <br>
+						
+						 ● Développement Web<br>
+						 Intégration front-end, développement back-end, CMS type WordPres <br>
+
+						● Cybersécurité<br>
+						 Certification SecNumAcademie <br>
+
+						● Gestion de projet<br> 
+						 Planification Trello, Outils de versionning Git, Diagramme de Gantt <br>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Veille technique</h2>
+				<div class="content">
+					<p>
+						Pour ma veille technologique, j'utilise en outre les réseaux sociaux, mais également l'application Feedly, qui me permet de choisir un ensemble de site web publiant des articles sur un thème précis. 
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Objectifs Professionnels</h2>
+				<div class="content">
+					<p>
+						Mon objectif est de continuer à développer mes compétences techniques afin de pouvoir travailler sur des projets me permettant d'évoluer dans le domaine du développement logiciel.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Centre d'Intérêt</h2>
+				<div class="content">
+					<p>
+						En dehors de mes études, je suis passionné par les nouvelles technologies, les jeux-vidéo, l'auto-apprentissage de nouveaux langages de programmation. Je suis également passioné par l'escrime dont j'ai pu pratiqué en tout pendant 6 ans.
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
